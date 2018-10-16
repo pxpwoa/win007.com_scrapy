@@ -1,0 +1,18 @@
+2017-09-21 17:15:48 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: nowgoal)
+2017-09-21 17:15:48 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'nowgoal', 'LOG_FILE': 'logs\\nowgoal\\nba\\7230d0c69ead11e7932b94de80c59d66.log', 'SPIDER_MODULES': ['nowgoal.spiders'], 'NEWSPIDER_MODULE': 'nowgoal.spiders'}
+2017-09-21 17:15:49 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole']
+2017-09-21 17:15:49 [twisted] CRITICAL: Unhandled error in Deferred:
+2017-09-21 17:15:49 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "c:\program files (x86)\anaconda3\lib\site-packages\twisted\internet\defer.py", line 1386, in _inlineCallbacks
+    result = g.send(result)
+  File "c:\program files (x86)\anaconda3\lib\site-packages\scrapy\crawler.py", line 76, in crawl
+    self.spider = self._create_spider(*args, **kwargs)
+  File "c:\program files (x86)\anaconda3\lib\site-packages\scrapy\crawler.py", line 99, in _create_spider
+    return self.spidercls.from_crawler(self, *args, **kwargs)
+  File "c:\program files (x86)\anaconda3\lib\site-packages\scrapy\spiders\__init__.py", line 51, in from_crawler
+    spider = cls(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument '_job'

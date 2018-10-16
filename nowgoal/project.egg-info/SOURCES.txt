@@ -1,0 +1,13 @@
+setup.py
+nowgoal/__init__.py
+nowgoal/items.py
+nowgoal/middlewares.py
+nowgoal/pipelines.py
+nowgoal/settings.py
+nowgoal/spiders/__init__.py
+nowgoal/spiders/nowgoal_spdier.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
